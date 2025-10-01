@@ -63,8 +63,8 @@ public class InterpretDrawingFile {
 			double parameterFive = in.nextDouble();
 			double parameterSix = in.nextDouble();
 
-			double[] x = {parameterOne, parameterTwo, parameterThree};
-			double[] y = {parameterFour, parameterFive, parameterSix};
+			double[] x = {parameterOne, parameterThree, parameterFive};
+			double[] y = {parameterTwo, parameterFour, parameterSix};
 
 			if(isFilled)
 			{
